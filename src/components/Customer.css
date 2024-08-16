@@ -1,0 +1,168 @@
+/* .customer-container {
+    padding: 50px 20px;
+    background-image: url('https://gifdb.com/images/high/happy-emoji-gardening-rose-wigmoar9xnclsrj2.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    margin-bottom: 30px;
+    color: #2d572c;
+  }
+  
+  .customer-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .razorpay-section {
+    margin-top: 20px;
+  }
+  
+  .razorpay-section img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .send-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .send-button:hover {
+    background-color: #218838;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+   */
+   
+   .customer-container {
+    background-image: url('https://i.pinimg.com/originals/30/f8/2e/30f82e2bddf2e76a2d87c754d2a9a9ce.gif');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .customer-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #130303;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .payment-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .amount {
+    color: rgb(77, 255, 0);
+    font-weight: bold;
+  }
+  
+  .upi-qr {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .pay-now-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+  
+  .notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
