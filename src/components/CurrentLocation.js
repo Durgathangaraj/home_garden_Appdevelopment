@@ -56,8 +56,7 @@ function CurrentLocation() {
   };
 
   const getName = async (latitude, longitude) => {
-    const accessKey = 'fc3a65fc9ebd7761b6cd0379e6cb3775';
-    const url = `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=5&appid=${accessKey}`;
+ 
     const res = await fetch(url);
     const data = await res.json();
     const locationName = data[0].name.split(' ')[0];
@@ -65,7 +64,7 @@ function CurrentLocation() {
   };
 
   const fetchData = async (locationName) => {
-    const url = `https://api.weatherapi.com/v1/current.json?key=1c63857a8e0548f9a1a152750210909&q=${locationName}&aqi=yes`;
+  
     const res = await fetch(url);
     const data = await res.json();
     if (res.status === 200) {
